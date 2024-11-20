@@ -1,9 +1,14 @@
-import { Announcement } from "./components/general/announcement";
+import { Route, Routes } from "react-router-dom";
+
+import { DefaultLayout } from "./components/layout/default-layout";
+import { HomePage } from "./pages/home-page";
 
 export default function Home() {
   return (
-    <div>
-      <Announcement />
-    </div>
+    <Routes>
+      <Route element={<DefaultLayout />}>
+        <Route path="/" element={<HomePage />} />
+      </Route>
+    </Routes>
   );
 }
