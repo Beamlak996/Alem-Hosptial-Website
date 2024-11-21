@@ -4,6 +4,7 @@ import { DefaultLayout } from "./components/layout/default-layout";
 import { HomePage } from "./pages/home-page";
 import { MissionAndVisionsPage } from "./pages/mission-and-visions-page";
 import { CoreValuesPage } from "./pages/core-values-page";
+import { AboutUsPage } from "./pages/about-us-page";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
           element={<MissionAndVisionsPage />}
         />
         <Route path="/core-values" element={<CoreValuesPage />} />
+        <Route path="/about-us" element={<AboutUsPage />} />
       </Route>
     </Routes>
   );
