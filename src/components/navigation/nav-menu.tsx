@@ -69,7 +69,7 @@ export const NavMenu = ({ isMobile = false }: Props) => {
 
           {/* Gallery */}
           <NavigationMenuItem>
-            <Link to="/news">
+            <Link to="/gallery">
               <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                 Gallery
               </NavigationMenuLink>

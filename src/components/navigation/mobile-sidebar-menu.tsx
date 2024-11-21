@@ -11,6 +11,7 @@ const menuItems = [
   { title: "About Alem Hospital", items: aboutAlemHospital },
   { title: "Services", href: "/services" },
   { title: "Our Staff", href: "/staff" },
+  { title: "Gallery", href: "/gallery" },
   { title: "News", href: "/news" },
 ];
 
