@@ -1,8 +1,9 @@
+import { Hero } from "@/components/home/hero";
 
 export const HomePage = () => {
-    return (
-        <div className="min-h-screen ">
-            
-        </div>
-    )
-}
+  return (
+    <div>
+      <Hero />
+    </div>
+  );
+};
