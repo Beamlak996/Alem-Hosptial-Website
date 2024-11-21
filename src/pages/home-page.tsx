@@ -1,8 +1,8 @@
 
 export const HomePage = () => {
     return (
-        <div>
-            Home Page
+        <div className="min-h-screen ">
+            
         </div>
     )
 }

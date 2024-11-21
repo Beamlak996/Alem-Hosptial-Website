@@ -9,7 +9,7 @@ export const DefaultLayout = () => {
     <div className="min-h-screen">
       <Announcement />
       <Navbar />
-      <main className="min-h-screen">
+      <main className="min-h-screen bg-slate-50">
         <Outlet />
       </main>
       <Footer />
