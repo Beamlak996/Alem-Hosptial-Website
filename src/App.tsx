@@ -7,6 +7,7 @@ import { CoreValuesPage } from "./pages/core-values-page";
 import { AboutUsPage } from "./pages/about-us-page";
 import { GalleryPage } from "./pages/gallery-page";
 import { OurServicesPage } from "./pages/our-services-page";
+import { ContactUsPage } from "./pages/contact-us-page";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <Route path="/about-us" element={<AboutUsPage />} />
         <Route path="/gallery" element={<GalleryPage />} />
         <Route path="/services" element={<OurServicesPage />} />
+        <Route path="/contact-us" element={<ContactUsPage />} />
       </Route>
     </Routes>
   );
