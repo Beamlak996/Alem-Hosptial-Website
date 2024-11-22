@@ -11,7 +11,7 @@ export const ContactInfo = () => {
           <FaMapMarkerAlt className="text-2xl mt-1" />
           <div>
             <p className="font-semibold">Address:</p>
-            <p className="text-lg">ቡታጅራ, Ethiopia</p>
+            <p className="text-lg">Butajira, Ethiopia</p>
           </div>
         </div>
         <div className="flex items-start space-x-4">
