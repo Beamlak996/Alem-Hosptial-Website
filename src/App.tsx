@@ -8,6 +8,7 @@ import { AboutUsPage } from "./pages/about-us-page";
 import { GalleryPage } from "./pages/gallery-page";
 import { OurServicesPage } from "./pages/our-services-page";
 import { ContactUsPage } from "./pages/contact-us-page";
+import { PageNotFound } from "./components/general/page-not-found";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
         <Route path="/services" element={<OurServicesPage />} />
         <Route path="/contact-us" element={<ContactUsPage />} />
       </Route>
+      <Route path="*" element={<PageNotFound />} />
     </Routes>
   );
 }

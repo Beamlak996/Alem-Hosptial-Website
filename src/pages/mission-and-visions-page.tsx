@@ -4,17 +4,9 @@ import { TypewriterEffectSmooth } from "@/components/animation/type-writing-effe
 
 export const MissionAndVisionsPage = () => {
   const words = [
-    {
-      text: "Mission",
-      className: "text-sky-700 dark:text-blue-500",
-    },
-    {
-      text: "&",
-    },
-    {
-      text: "Vision.",
-      className: "text-sky-700 dark:text-blue-500",
-    },
+    { text: "Mission", className: "text-sky-700 dark:text-blue-500" },
+    { text: "&" },
+    { text: "Vision.", className: "text-sky-700 dark:text-blue-500" },
   ];
 
   return (
@@ -35,7 +27,7 @@ export const MissionAndVisionsPage = () => {
         </motion.h1>
 
         {/* Mission Section */}
-        <motion.div
+        <motion.section
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           whileHover={{ scale: 1.02 }}
@@ -48,7 +40,7 @@ export const MissionAndVisionsPage = () => {
               initial={{ scale: 0.8 }}
               animate={{ scale: 1 }}
               transition={{ duration: 0.6 }}
-              className="flex items-center justify-center text-sky-700"
+              className="text-sky-700"
             >
               <FaBullseye className="text-9xl drop-shadow-lg" />
             </motion.div>
@@ -76,10 +68,10 @@ export const MissionAndVisionsPage = () => {
               medical education, and innovative research.
             </motion.p>
           </div>
-        </motion.div>
+        </motion.section>
 
         {/* Vision Section */}
-        <motion.div
+        <motion.section
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           whileHover={{ scale: 1.02 }}
@@ -92,7 +84,7 @@ export const MissionAndVisionsPage = () => {
               initial={{ scale: 0.8 }}
               animate={{ scale: 1 }}
               transition={{ duration: 0.6 }}
-              className="flex items-center justify-center text-sky-700"
+              className="text-sky-700"
             >
               <FaLightbulb className="text-9xl drop-shadow-lg" />
             </motion.div>
@@ -119,7 +111,7 @@ export const MissionAndVisionsPage = () => {
               commitment to fostering a healthy and resilient community.
             </motion.p>
           </div>
-        </motion.div>
+        </motion.section>
       </div>
     </div>
   );
